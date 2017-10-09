@@ -1,6 +1,6 @@
-const btoa = require('btoa');
-const atob = require('atob');
-const Promise = require('es6-promise').Promise;
+global.btoa = require('btoa');
+global.atob = require('atob');
+global.Promise = require('es6-promise').Promise;
 global.openpgp = require('openpgp');
 
 openpgp.config.integrity_protect = true;
