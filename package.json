@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/ProtonMail/pmcrypto#readme",
   "dependencies": {
-	  "btoa": "*",
-	  "atob": "*",
-	  "es6-promise": "*",
-	  "openpgp": "2.6.2"
+    "btoa": "*",
+    "atob": "*",
+    "es6-promise": "*",
+    "openpgp": "git@github.com:sanjanarajan/openpgpjs.git#master"
   },
   "devDependencies": {
     "babel-plugin-istanbul": "^4.1.4",
